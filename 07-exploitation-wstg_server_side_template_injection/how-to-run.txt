@@ -1,0 +1,5 @@
+Stop dan Remove Container serta Volumes sebelumnya (jika ada):
+    sudo docker-compose down -v
+
+Build dan Run Docker Compose:
+    sudo docker-compose up --build

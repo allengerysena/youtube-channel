@@ -1,0 +1,15 @@
+version: '3.1'
+
+services:
+  web:
+    build: .
+    image: kelashack.id_01_website_enumeration:latest
+    container_name: kelashack.id_01_website_enumeration
+    ports:
+      - "9901:80"
+    volumes:
+      - volume:/var/www/html
+    restart: always
+
+volumes:
+  volume:
