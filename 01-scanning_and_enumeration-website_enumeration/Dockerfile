@@ -7,7 +7,9 @@ COPY ./app /var/www/html/
 RUN apt-get update && apt-get install -y unzip
 
 COPY git.zip /var/www/html/
-RUN unzip /var/www/html/git.zip -d /var/www/html/home/ && \
+
+RUN mkdir -p /var/www/html/home/ && \
+    unzip /var/www/html/git.zip -d /var/www/html/home/ && \
     rm /var/www/html/git.zip
 
 RUN chown -R www-data:www-data /var/www/html \
