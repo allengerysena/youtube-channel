@@ -21,7 +21,7 @@ sudo docker-compose down -v
 | 00-reconnaissance-open_source_intelligence               | 9900 |
 | 01-scanning_and_enumeration-website_enumeration          | 9901 |
 | 02-scanning_and_enumeration-vulnerability_in_cms         | 9902 |
-| 03-vulnerability_assessment-cve_2021_41773_case_study    | 9903 |
+| 03-vulnerability_assessment-cve_2021_42013_case_study    | 9903 |
 | 04-vulnerability_assessment-potential_vulnerability      | 9904 |
 | 05-exploitation-parameter_tampering                      | 9905 |
 | 06-exploitation-web_security_testing_guide               | 9906 |
